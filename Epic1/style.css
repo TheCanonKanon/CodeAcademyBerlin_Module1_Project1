@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+    text-align: right;
+}
+
+.important-text {
+    font-size: 130%
+}
+
+.tiny-text {
+    font-size: 66%;
+}
+
+.Disclaimer-text {
+    opacity: 0.3;
+    font-size: smaller;
+}
+
+.AD-Time {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a:link {
+    font-size: 300%;
+    color: red;
+}
+
+a:visited {
+    font-size: 500%;
+    color: blue;
+}
+
+a:hover {
+    color: white;
+    cursor: default;
+}

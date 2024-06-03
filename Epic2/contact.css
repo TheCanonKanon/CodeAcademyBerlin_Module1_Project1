@@ -1,0 +1,32 @@
+
+.main_div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderimg {
+    border: 30px solid transparent;
+    border-image: url("img/fire-frame-5267489_1920.png") 10% fill;
+}
+
+.contact_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_image {
+    max-height: 2em;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
