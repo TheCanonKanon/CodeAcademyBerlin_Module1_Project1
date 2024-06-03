@@ -3,4 +3,10 @@
     margin: 2em;
     align-items: center;
     justify-content: center;
+    
+}
+
+.inner_Flex > p {
+    overflow: scroll;
+    max-height: 300px;
 }
