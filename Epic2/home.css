@@ -1,0 +1,6 @@
+.inner_Flex {
+    display: flex;
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+}
