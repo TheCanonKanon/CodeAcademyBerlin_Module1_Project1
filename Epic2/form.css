@@ -5,10 +5,10 @@
     'name name'
     'street street'
     'city zipcode'
-    'fire'
-    'delievery'
-    'consent'
-    'button';
+    'fire fire'
+    'delievery delievery'
+    'consent consent'
+    'button button';
 }
 
 .gridForm * {
@@ -21,7 +21,6 @@
 
 .itemStreet {
     grid-area: street;
-    width: 100%;
 }
 
 .itemCity {
