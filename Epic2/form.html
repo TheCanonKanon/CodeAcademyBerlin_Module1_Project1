@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
@@ -19,19 +20,18 @@
         </span>
     </nav>
     <div>
-        <form>
-            <label for="fname">FirstName:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="nname">Last Name:</label>
-            <input type="text" id="nname" name="nname">
-            <label for="street">Street:</label>
-            <input type="text" id="street" name="street">
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city">
-            <label for="zipcode">Zip Code:</label>
-            <input type="number" id="zipcode" name="zipcode" min="00001" max="99999">
-            <label for="Fire">Choose your fire!</label>
-            <select id="Fire" name="Fire">
+        <form class="gridForm" action="confirmation.html">
+            <label class="itemNamelabel" for="fname">Name:</label>
+            <input class="itemFName" type="text" id="fname" name="fname" placeholder="First">
+            <input class="itemLName" type="text" id="lname" name="lname" placeholder="Last">
+            <label class="itemStreetlabel" for="street">Street:</label>
+            <input class="itemStreet" type="text" id="street" name="street">
+            <label class="itemCitylabel" for="city">City:</label>
+            <input class="itemCity" type="text" id="city" name="city">
+            <label class="itemZipcodelabel" for="zipcode">Zip Code:</label>
+            <input class="itemZipcode" type="number" id="zipcode" name="zipcode" min="00001" max="99999">
+            <label class="itemFirelabel" for="Fire">Choose your fire!</label>
+            <select class="itemFire" id="Fire" name="Fire">
                 <option value="The_Lighter">The Lighter</option>
                 <option value="The_Explorer">The Explorer</option>
                 <option value="Grilling_with_Nature">Grilling with Nature</option>
@@ -43,29 +43,20 @@
                 <option value="Hell_on_Earth">Hell on Earth</option>
                 <option value="Did_the_sun_just_Got_bigger">Did the Sun just got bigger?</option>
             </select>
-            <div>
-                <p>Delievery Options</p>
-                <label for="norm_deliv">Normal Delievery</label>
-                <input type="radio" id="deliv" name="deliv" value="norm">
-                <label for="expr_deliv">Express Delievery</label>
-                <input type="radio" id="deliv" name="deliv" value="express">
+            <p class="itemDelieverylabel">Delievery Options</p>
+            <label class="itemDelieveryNormLabel" for="norm_deliv">Normal Delievery</label>
+            <input class="itemDelieveryNorm" type="radio" id="norm_deliv" name="deliv" value="norm">
+            <label class="itemDelieveryExpressLabel" for="expr_deliv">Express Delievery</label>
+            <input class="itemDelieveryExpress" type="radio" id="expr_deliv" name="deliv" value="express">
+            <div class="itemConsent">
+                <input type="checkbox" id="consent" name="consent">
+                <label for="consent">I accept the <a href="terms.html" target="_blank">Terms and Conditions</a></label>
             </div>
-            <input type="checkbox" id="consent" name="consent">
-            <label for="consent">I accept the Terms</label>
-             
-
+            <input class="itemButton" type="submit" value="Submit Order">
         </form>
     </div>
     <footer>
-        <p>Terms and Conditions</p>
-        <ul>
-            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</li>
-            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</li>
-            <ul>
-                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</li>
-                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</li>
-            </ul>
-        </ul>
+        <a href="terms.html">Terms and Conditions</a>
     </footer>
 </body>
 </html>

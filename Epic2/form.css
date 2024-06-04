@@ -1,0 +1,106 @@
+.gridForm {
+    display: grid;
+    max-width: 50%;
+    margin: auto;
+    grid-template-areas: 
+    'namelabel namelabel namelabel namelabel namelabel namelabel namelabel namelabel '
+    'fname fname fname fname lname lname lname lname'
+    'streetlabel streetlabel streetlabel streetlabel streetlabel streetlabel streetlabel streetlabel'
+    'street street street street street street street street'
+    'citylabel citylabel citylabel citylabel zipcodelabel zipcodelabel zipcodelabel zipcodelabel'
+    'city city city city zipcode zipcode zipcode zipcode'
+    'firelabel firelabel firelabel firelabel delieverylabel delieverylabel delieverylabel delieverylabel '
+    'fire fire fire fire delieveryNormLabel delieveryNorm delieveryExpressLabel delieveryExpress'
+    'consent consent consent consent consent consent consent consent'
+    'button button button button button button button button';
+}
+
+.gridForm * {
+    margin: 2px;
+}
+
+.itemNamelabel {
+    grid-area: namelabel;
+}
+
+.itemFName {
+    grid-area: fname;
+}
+
+.itemFName input {
+    width: auto;
+}
+
+.itemLName {
+    grid-area: lname;
+}
+
+.itemLName input {
+    width: auto;
+}
+
+.itemStreetlabel {
+    grid-area: streetlabel;
+}
+
+.itemStreet {
+    grid-area: street;
+}
+
+.itemStreet input {
+    width: auto;
+}
+
+.itemCitylabel {
+    grid-area: citylabel;
+}
+
+.itemCity {
+    grid-area: city;
+}
+
+.itemZipcodelabel {
+    grid-area: zipcodelabel;
+}
+
+.itemZipcode {
+    grid-area: zipcode;
+}
+
+.itemDelieverylabel {
+    grid-area: delieverylabel;
+}
+
+.itemDelieveryNormLabel {
+    grid-area: delieveryNormLabel;
+}
+
+.itemDelieveryExpressLabel {
+    grid-area: delieveryExpressLabel;
+}
+
+.itemDelieveryNorm {
+    grid-area: delieveryNorm;
+}
+
+.itemDelieveryExpress {
+    grid-area: delieveryExpress;
+}
+
+.itemFirelabel {
+    grid-area: firelabel;
+}
+
+.itemFire {
+    grid-area: fire;
+}
+
+.itemConsent {
+    grid-area: consent;
+    justify-self: center;
+}
+
+.itemButton {
+    grid-area: button;
+    justify-self: center;
+}
