@@ -9,14 +9,6 @@ body > div {
     padding: 1em;
 }
 
-/* @keyframes firesimulator {
-    0% {background-image: linear-gradient(grey,rgb(213, 188, 24));}
-    25% {background-image: linear-gradient(rgb(213, 188, 24),rgb(240, 91, 10));}
-    50% {background-image: linear-gradient(rgb(240, 91, 10),red);}
-    75% {background-image: linear-gradient(rgb(213, 188, 24),rgb(240, 91, 10));}
-    100% {background-image: linear-gradient(grey,rgb(213, 188, 24));}
-} */
-
 @keyframes firesimulator {
     0% {background-color: rgb(213, 188, 24);}
     25% {background-color: rgb(240, 91, 10);}
