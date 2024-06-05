@@ -10,3 +10,17 @@
     overflow: scroll;
     max-height: 300px;
 }
+
+@media screen and (max-width: 992px) {
+    body img {
+      min-width: 350px;
+      min-height: auto;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    body img{
+      min-width: 200px;
+      min-height: auto;
+    }
+  }
